@@ -6,15 +6,15 @@ joints_to_ign:
     - 9
     - 12
 # data: images, keypoints
-data_folder: "./data_2/"
+data_folder: "./data/"
 # number of persons
 max_persons: 1
 # results
-output_folder: './data_2/res'
+output_folder: './data/res'
 prior_folder: ''
 part_segm_fn: ''
 # smplx models
-model_folder: '/Users/momo/momo/refer_code/smplx/download/models'
+model_folder: './models'
 # pkl results
 result_folder: 'params'
 gender: "neutral"
